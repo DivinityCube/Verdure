@@ -13,7 +13,7 @@ from PyQt6.QtCore import Qt, QDate
 class CalorieTrackerApp(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Verdure 25 [INDEV BUILD]")
+        self.setWindowTitle("Verdure 25")
         self.resize(800, 600)
         
         # Set up dark theme
